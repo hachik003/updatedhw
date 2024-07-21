@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Amirul Haziq Bin Airol Hairrie</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="useful-links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://en.ritsumei.ac.jp/ise/course/isse/" target="_blank">Ritsumeikan ISSE Course</a></li>
+                <li><a href="https://www.youtube.com/@BroCodez" target="_blank">BroCode YouTube Channel</a></li>
+            </ul>
+        </div>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <img src="home.png" alt="Profile Picture">
+            <p>My name is Amirul Haziq Bin Airol Hairrie. I am 21 years old and from Kuala Lumpur, 
+                Malaysia. My hobbies are playing sports and going to the gym. I can speak Malay, 
+                which is my first language, English, and Japanese. 
+                I decided to further my studies in Japan because I am a black belt in karate, 
+                and I also plan to learn more about karate in Japan while studying. Currently, 
+                I am a first-year student studying computer science at Ritsumeikan University, 
+                Japan. I have been living in Japan for approximately one year now. 
+                I have studied Japanese for 2 years and graduated from JASSO Tokyo Language School in Shinjuku.
+                 Recently, I moved to Osaka Ibaraki after enrolling at Ritsumeikan University. 
+                 After graduating from Ritsumeikan University, 
+                 I plan to further my studies and aim for my Master's degree. 
+                 However, I am not sure if I will continue my Master's at Ritsumeikan University, 
+                 but I plan on doing my Master's degree in Japan.</p>
+        </div>
+        <div class="contact-me">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+                <button type="button" onclick="document.getElementById('name').value=''; document.getElementById('email').value=''; document.getElementById('message').value='';">Clear</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Amirul Haziq Bin Airol Hairrie</p>
+    </footer>
+</body>
+</html>
